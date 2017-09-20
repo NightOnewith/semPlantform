@@ -1,0 +1,2296 @@
+/*thirdlevel*/
+.topbanner {
+    width: 100%;
+    height: 311px;
+    background: #afd7fb;
+    margin: 156px 0 0 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.topbanner .banner-container {
+    width: 1800px;
+    height: 100%;
+    background: url(../img/mark/new-banner.jpg) no-repeat center;
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -900px;
+}
+
+.breadline {
+    height: 40px;
+    line-height: 40px;
+}
+
+.breadline a {
+	font-size:12px;
+    color: #f97802;
+}
+
+.breadline span {
+    color: #333;
+}
+
+.main .order .text-slide .content-tr {
+    background: #fbfbfb;
+}
+
+.main .order .text-slide .bd ul > li > table {
+    width: 100%;
+    color: #666;
+    border: none;
+}
+
+.main .order .text-slide .bd ul > li > table .moyig-ui {
+    width: 100%;
+    margin-top: 30px;
+    border: 1px solid #e6e6e6;
+}
+
+.main .order .text-slide .bd ul > li > table .moyig-ui .content-tr td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.main .order .text-slide .bd ul > li > table .moyig-ui .content-tr td em {
+    font-style: inherit;
+}
+
+.main .order .text-slide .bd ul > li > table .moyig-ui .content-tr td:hover {
+    cursor: auto;
+}
+
+.main .order .text-slide .bd ul > li > table .moyig-ui .content-tr td > div {
+    height: 100%;
+}
+
+.main .order .text-slide .bd ul > li > table .moyig-ui .content-tr td.tbl-0 {
+    text-align: left;
+    padding: 30px 0;
+}
+
+.main .order .text-slide .bd ul > li > table tr .tbl-0 {
+    width: 566px;
+}
+
+.main .order .text-slide .bd ul > li > table tr .tbl-1 {
+    width: 144px;
+}
+
+.main .order .text-slide .bd ul > li > table tr .tbl-2 {
+    width: 144px;
+}
+
+.main .order .text-slide .bd ul > li > table .moyig-ui .content-tr td.tbl-0 .goods {
+    width: 514px;
+    margin: 0 auto;
+}
+
+.main .order .text-slide .bd ul > li > table .moyig-ui .content-tr td.tbl-0 .goods img {
+    width: 108px;
+    height: 108px;
+}
+
+.main .order .text-slide .bd ul > li > table .moyig-ui .content-tr td.tbl-0 .goods .goods_detail {
+    margin-left: 20px;
+    width: 382px;
+}
+
+.main .order .text-slide .bd ul > li > table .moyig-ui .content-tr td.tbl-0 .goods h3 {
+    font-size: 18px;
+    line-height: 38px;
+    color: #333;
+}
+
+.main .order .text-slide .bd ul > li > table .moyig-ui .content-tr td.tbl-0 .goods p {
+    color: #999;
+}
+
+.red {
+    color: #f00808;
+}
+
+.edit_btn .save_btn {
+    color: #fff;
+    background: #ff5c26;
+}
+
+.edit_btn button {
+    width: 205px;
+    height: 40px;
+    line-height: 40px;
+    margin: 45px 0 40px 0;
+    text-align: center;
+    border: 1px solid #ff5c26;
+    border-radius: 3px;
+    float: right;
+}
+
+.edit_btn .cancel_btn {
+    color: #ff5c26;
+    background: #fff;
+    margin-left: 40px;
+}
+
+.thirdlevel_buylist {
+    width: 100%;
+    background: #fff;
+    padding: 10px 25px;
+    overflow: hidden;
+}
+
+.thirdlevel_buylist h2 {
+    font-size: 16px;
+    color: #3899f6;
+}
+
+.thirdlevel_buylist ul {
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.thirdlevel_buylist ul li {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px dashed #E0E0E0;
+}
+
+.thirdlevel_buylist ul li:last-child {
+    border-bottom: none;
+}
+
+.thirdlevel_buylist ul li strong {
+    color: red;
+    margin-left: 5px;
+}
+
+.thirdlevel_buylist ul li span {
+    color: red;
+    float: right;
+    font-size: 18px;
+}
+
+.thirdlevel_buylist ul li select {
+    margin-left: 10px;
+}
+
+.thirdlevel_detail {
+    width: 1024px;
+    margin: 30px auto;
+}
+
+.thirdlevel_detail .thirdlevel_detail_top p {
+    width: 450px;
+    font-size: 22px;
+    line-height: 32px;
+    margin: 40px 60px;
+}
+
+.thirdlevel_detail_bottom {
+    margin-top: 40px;
+}
+
+.prodDetail {
+    background: #fcfcfc;
+}
+
+.prodDetail .trial-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: -250px;
+    background: #fff;
+    border: solid 4px #AFCAE4;
+    text-align: center;
+}
+
+.prodDetail .trial-popup .line-1 {
+    margin-top: 30px;
+}
+
+.prodDetail .trial-popup h4 {
+    color: #2092ff;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.prodDetail .trial-popup .line-3 {
+    margin-top: 20px;
+}
+
+.prodDetail .trial-popup .success-tip {
+    margin-top: 40px;
+    height: 40px;
+    width: 160px;
+    margin-left: 170px;
+}
+
+.prodDetail .trial-popup .success-tip .check-img {
+    width: 40px;
+    height: 40px;
+    background: url("../img/mark/check-img.png") no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    float: left;
+}
+
+.prodDetail .trial-popup .success-tip span {
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    margin-left: 15px;
+    color: #2092ff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.prodDetail .trial-popup .popup-close {
+    display: block;
+    width: 80px;
+    margin: 22px 0 0 210px;
+    height: 35px;
+    background: #ff8d00;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    line-height: 35px;
+    color: #fff;
+}
+
+.prodDetail .margin-wrapper {
+    margin: 158px auto 0;
+}
+
+.prodDetail .mainCon .slideTxtBox .hd {
+    height: 51px;
+    padding: 20px 0;
+}
+
+/*fouthlevel*/
+.prodDetail .fouthlevel_details {
+    padding: 0 0 100px 0;
+}
+
+.prodDetail .mainCon .slideTxtBox .hd .good-detail {
+    width: 100%;
+    height: 100%;
+    background: url(../img/mark/good-detail.jpg) no-repeat center;
+}
+
+.prodDetail .mainCon .productPhoto {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #d9d9d9;
+    margin-right: 50px;
+    overflow: hidden;
+}
+
+.prodDetail .mainCon .productPhoto img {
+    width: 280px;
+    /*height:380px;*/
+}
+
+.prodDetail .mainCon .productInfo {
+    width: 670px;
+    margin: 0 0 0 -70px;
+}
+
+.prodDetail .mainCon .productInfo > div {
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+
+.prodDetail .mainCon .productInfo .productIntro span,
+.prodDetail .mainCon .productInfo .productTag span,
+.prodDetail .mainCon .productInfo .productPrice span,
+.prodDetail .mainCon .productInfo .productType span {
+    font-size: 12px;
+}
+
+.prodDetail .mainCon .productInfo > div.operateBtns {
+    margin-left: 90px;
+}
+
+.prodDetail .mainCon .productInfo .itemName {
+    width: 90px;
+    text-align: right;
+    float: left;
+    margin: 0 0 0 10px;
+    line-height:20px;
+}
+
+.prodDetail .mainCon .productInfo .productName {
+    /*font-size: 18px;*/
+    font-size: 16px;
+    font-weight: bold;
+    text-indent: 22px;
+}
+
+.prodDetail .mainCon .productInfo .typeItem {
+    padding: 8px 10px;
+    border: 1px solid #d9d9d9;
+    margin-right: 15px;
+}
+
+.prodDetail .mainCon .productInfo .typeItem.on {
+    border: 1px solid #ff4401;
+    background: url("../img/mark/selectedIcon.png") no-repeat right bottom;
+}
+
+.prodDetail .mainCon .productInfo .typeItem:hover {
+    cursor: pointer;
+}
+
+.prodDetail .mainCon .productInfo .btn {
+    padding: 0;
+    width: 108px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #52cc5e;
+    background: #fff;
+    color: #52cc5e;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-right: 20px;
+    margin-top:20px;
+    cursor: pointer;
+}
+
+.prodDetail .mainCon .productInfo .buyNow {
+    /*background: #3899f6;*/
+    background: #ffbc52;
+    color: white;
+    border: none;
+    margin: 20px 20px 0 70px;
+    cursor: pointer;
+}
+
+.prodDetail .mainCon .productInfo .addCart {
+    background: #ffbc52;
+    color: white;
+    border: none;
+}
+
+.prodDetail .mainCon .productInfo .retrunbuy {
+    background: #ffbc52;
+    color: white;
+    border: none;
+    margin-left: 102px;
+}
+
+.orange {
+    color: #f97802;
+}
+
+.prodDetail .fouthlevel .fouthlevel_details .fouthlevel_details_txt {
+    width: 338px;
+    margin-left: 10px;
+}
+
+.prodDetail .fouthlevel .fouthlevel_details .fouthlevel_details_txt p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.prodDetail .fouthlevel .fouthlevel_details .fouthlevel_details_img {
+    width: 700px;
+    margin-left: 60px;
+}
+
+.prodDetail .fouthlevel .fouthlevel_details .fouthlevel_details_top {
+    /*border-bottom:1px solid #E0E0E0;*/
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.prodDetail .fouthlevel .fouthlevel_details .fl h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0 30px 0;
+}
+
+.thirdfouthtit {
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    font-size: 24px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.prodDetail .fouthlevel_details #u66 {
+    position: relative;
+    margin-top: 180px;
+}
+
+.prodDetail .fouthlevel_details #u66 .prodDetail_u66img {
+    position: absolute;
+    right: 24px;
+    top: 100px;
+}
+
+.detail_two {
+    margin-bottom: 60px;
+}
+
+.detail_two h2 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px dashed #e1e1e1;
+}
+
+.detail_two .detail_two_box {
+    width: 100%;
+    padding: 20px 0;
+    font-size: 22px;
+    color: #333;
+    background: #f7f7f7;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.detail_two .detail_two_box .fl {
+    width: 750px;
+    font-size: 18px;
+    color: #333;
+    line-height: 26px;
+    margin-left: 20px;
+}
+
+.detail_two .detail_two_box .fl span {
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.detail_two .detail_two_box img {
+    margin-right: 20px;
+}
+
+.detail_three {
+    margin-bottom: 50px;
+}
+
+.detail_three h2 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px dashed #e1e1e1;
+}
+
+.detail_three .detail_three_box {
+    margin-top: 60px;
+    background: #f7f7f7;
+    padding: 20px 0;
+}
+
+.detail_three .detail_three_box span {
+    font-size: 22px;
+    color: #333;
+    display: block;
+    margin-left: 20px;
+}
+
+.detail_three .detail_three_box img {
+    display: block;
+    margin: 70px auto 20px auto;
+}
+
+.detail_four {
+    margin-top: 40px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+
+.detail_four .detail_four_top {
+    padding-bottom: 45px;
+    overflow: hidden;
+}
+
+.detail_four .detail_four_top .detail_four_top_txt {
+    width: 486px;
+    float: left;
+}
+
+.detail_four .detail_four_top .detail_four_top_txt h2 {
+    font-size: 30px;
+}
+
+.detail_four .detail_four_top .detail_four_top_txt p {
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 45px;
+}
+
+.detail_four .detail_four_top .detail_four_top_img {
+    background: #f8f8f8;
+}
+
+.detail_four .detail_four_top .detail_four_top_img img {
+    padding: 30px;
+}
+
+.detail_four .detail_four_box {
+    width: 100%;
+}
+
+.detail_four .detail_four_box span {
+    font-size: 30px;
+    margin: 30px 0;
+    display: block;
+    padding-top: 30px;
+    border-top: 1px dashed #ccc;
+}
+
+.detail_four .detail_four_box .detail_four_box_img {
+    background: #f8f8f8;
+}
+
+.detail_four .detail_four_box .detail_four_box_img img {
+    padding: 20px;
+}
+
+.detail_four_box .zhanshi {
+    background: #f8f8f8;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.detail_four_box .zhanshi img {
+    margin: 20px 0 0 25px;
+    width: 543px;
+    height: 283px;
+}
+
+/*advantage*/
+.advantage {
+    /*max-width: 1440px;*/
+    margin: 156px auto 0;
+}
+
+.advantage .advantage_top {
+    background: url(../img/banner-new/banner-1.png) no-repeat center #0f51b2;
+    width: 100%;
+    height: 386px;
+}
+
+.advantage .advantage_tit {
+    width: 324px;
+    margin: 95px auto 0 auto;
+}
+
+.advantage .advantage_box01 {
+    margin-top: 174px;
+    height: 480px;
+}
+
+.advantage .advantage_box01 .advantage_box_tit {
+    width: 540px;
+    margin: 0 auto 50px auto;
+}
+
+.advantage .advantage_box01 .advantage_box_txt {
+    width: 420px;
+}
+
+.advantage .advantage_box01 .advantage_box_txt img {
+    width: 360px;
+    height: 145px;
+}
+
+.advantage .advantage_box01 .advantage_box_txt p {
+    width: 360px;
+    margin-top: 15px;
+}
+
+.advantage_box_txt a {
+    display: block;
+    width: 120px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 14px;
+    float: left;
+    margin-top: 26px;
+}
+
+.advantage_box_txt a.fw-btn {
+    background: #ffbc52;
+    color: #fff;
+}
+
+.advantage_box_txt a.mf-btn {
+    background: #fff;
+    color: #5cc467;
+    height: 34px;
+    width: 120px;
+    border: 1px solid #5cc467;
+    margin-left: 60px;
+}
+
+.advantage .advantage_box01 .advantage_box_img {
+    width: 750px;
+    float: left;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li {
+    width: 238px;
+    /*height:100px;*/
+    height: 90px;
+    float: left;
+    border: 1px solid #f0f0f0;
+    margin: 10px 0 0 10px;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li i {
+    display: block;
+    width: 56px;
+    height: 56px;
+    float: left;
+    background: url(../img/mark/erp_ico.png) no-repeat;
+    margin: 20px 0 0 30px;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li:hover {
+    background: #6ab6ff;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li i.sale_ico {
+    background-position: 0 -320px;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li i.caigou_ico {
+    background-position: -254px -320px;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li i.shebei_ico {
+    width: 60px;
+    height: 66px;
+    background-position: -502px -320px;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li i.guzi_ico {
+    background-position: -6px -429px;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li i.shengchan_ico {
+    background-position: -254px -430px;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li i.zhiliang_ico {
+    background-position: -509px -436px;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li i.nenghao_ico {
+    background-position: -10px -543px;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li i.caiwu_ico {
+    background-position: -253px -543px;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li i.chengben_ico {
+    background-position: -506px -543px;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li:hover i.sale_ico {
+    background-position: 0 0;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li:hover i.caigou_ico {
+    background-position: -253px 0;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li:hover i.shebei_ico {
+    background-position: -501px 0;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li:hover i.guzi_ico {
+    background-position: -4px -110px;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li:hover i.shengchan_ico {
+    background-position: -253px -111px;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li:hover i.zhiliang_ico {
+    background-position: -509px -116px;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li:hover i.nenghao_ico {
+    background-position: -8px -224px;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li:hover i.caiwu_ico {
+    background-position: -254px -224px;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li:hover i.chengben_ico {
+    background-position: -502px -224px;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li span {
+    float: right;
+    /*margin:60px 22px 0 0;*/
+    margin: 45px 22px 0 0;
+    /*font-size:20px;*/
+    font-size: 16px;
+    color: #000;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li:hover span {
+    color: #fff;
+}
+
+.advantage .advantage_box02 {
+    margin-top: 135px;
+    width: 100%;
+    height: 632px;
+    background: #fbfbfb;
+}
+
+.advantage .advantage_box02 .advantage_box_tit {
+    width: 307px;
+    margin: 0 auto;
+    padding: 82px 0 44px 0;
+}
+
+.advantage .advantage_box02 .advantage_box_txt {
+    width: 596px;
+    margin-top: 90px;
+}
+
+.advantage .advantage_box02 .advantage_box_txt p {
+    width: 100%;
+    font-size: 16px;
+    color: #333;
+}
+
+.advantage .advantage_box02 .advantage_box_img {
+    width: 561px;
+}
+
+.advantage .advantage_box02 .advantage_box_img img {
+    width: 561px;
+    height: 375px;
+}
+
+.advantage .advantage_box03 {
+    margin-top: 135px;
+    width: 100%;
+    height: 892px;
+}
+
+.advantage .advantage_box03 .advantage_box_tit {
+    width: 307px;
+    margin: 0 auto;
+    padding: 0 0 80px 0;
+}
+
+.advantage .advantage_box03 .advantage_box_txt {
+    width: 504px;
+    height: 163px;
+    margin: 152px auto 0 auto;
+    background: url(../img/mark/advantage_box03.png) no-repeat;
+}
+
+.advantage .advantage_box03 .advantage_box_txt h2 {
+    color: #2d98d9;
+    font-size: 42px;
+}
+
+.advantage .advantage_box03 .advantage_box_txt p {
+    width: 100%;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.advantage_box03 .fw-btn {
+    margin-left: 80px;
+}
+
+.advantage_box03 .advantage_box_txt a.mf-btn {
+    margin-left: 30px;
+}
+
+.advantage_box03 .wrapper {
+    position: relative;
+}
+
+.advantage_box03 .advantage_box_img {
+    width: 100%;
+    position: absolute;
+    top: -188px;
+}
+
+.advantage_box03 .advantage_box_circle {
+    position: absolute;
+}
+
+.advantage_box03 .advantage_box_circle.circle1 {
+    left: 0;
+}
+
+.advantage_box03 .advantage_box_circle.circle2 {
+    left: 108px;
+}
+
+.advantage_box03 .advantage_box_circle.circle3 {
+    left: 230px;
+}
+
+.advantage_box03 .advantage_box_circle.circle4 {
+    right: 168px;
+}
+
+.advantage_box03 .advantage_box_circle.circle5 {
+    right: 0;
+}
+
+@-webkit-keyframes swing {
+    20%, 40%, 60%, 80%, 100% {
+        -webkit-transform-origin: top center
+    }
+    20% {
+        -webkit-transform: rotate(5deg)
+    }
+    40% {
+        -webkit-transform: rotate(-5deg)
+    }
+    60% {
+        -webkit-transform: rotate(2deg)
+    }
+    80% {
+        -webkit-transform: rotate(-2deg)
+    }
+    100% {
+        -webkit-transform: rotate(0deg)
+    }
+}
+
+@-moz-keyframes swing {
+    20% {
+        -moz-transform: rotate(5deg)
+    }
+    40% {
+        -moz-transform: rotate(-5deg)
+    }
+    60% {
+        -moz-transform: rotate(2deg)
+    }
+    80% {
+        -moz-transform: rotate(-2deg)
+    }
+    100% {
+        -moz-transform: rotate(0deg)
+    }
+}
+
+@-o-keyframes swing {
+    20% {
+        -o-transform: rotate(5deg)
+    }
+    40% {
+        -o-transform: rotate(-5deg)
+    }
+    60% {
+        -o-transform: rotate(2deg)
+    }
+    80% {
+        -o-transform: rotate(-2deg)
+    }
+    100% {
+        -o-transform: rotate(0deg)
+    }
+}
+
+@keyframes swing {
+    20% {
+        transform: rotate(5deg)
+    }
+    40% {
+        transform: rotate(-5deg)
+    }
+    60% {
+        transform: rotate(2deg)
+    }
+    80% {
+        transform: rotate(-2deg)
+    }
+    100% {
+        transform: rotate(0deg)
+    }
+}
+
+.swing {
+    -webkit-transform-origin: top center;
+    -moz-transform-origin: top center;
+    -o-transform-origin: top center;
+    transform-origin: top center;
+    -webkit-animation-name: swing;
+    -moz-animation-name: swing;
+    -o-animation-name: swing;
+    animation-name: swing;
+}
+
+.advantage_box04 {
+    width: 100%;
+    height: 908px;
+    background: #fbfbfb;
+    margin-top: 140px;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.advantage_box04 .advantage_box_tit {
+    width: 368px;
+    margin: 0 auto;
+    padding: 108px 0 66px 0;
+}
+
+.advantage_box04 .advantage_box_img {
+    width: 500px;
+}
+
+.advantage_box04 .advantage_box_img img {
+    width: 500px;
+    height: 441px;
+}
+
+.advantage_box04 .advantage_box_txt {
+    width: 600px;
+    margin: 90px 0 0 40px;
+}
+
+.advantage_box04 .advantage_box_txt h2 {
+    font-size: 26px;
+    color: #333;
+}
+
+.advantage_box04 .advantage_box_txt p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #000;
+    line-height: 32px;
+}
+
+/*goverEnterprise*/
+.goverEnterprise {
+    width: 100%;
+    padding-top: 150px;
+}
+
+.goverEnterprise .gover_banner {
+    /*max-width: 1440px;*/
+    margin: 0 auto;
+}
+
+.goverEnterprise .gover_banner img{
+    width: 100%;
+}
+
+.goverEnterprise .wrapper {
+    margin-top: 40px;
+}
+
+.goverEnterprise .wrapper .gover_left {
+    width: 747px;
+    height: auto
+}
+
+.goverEnterprise .wrapper .gover_left .govr_search {
+    width: 100%;
+}
+
+.goverEnterprise .wrapper .gover_left .govr_search input,
+.goverEnterprise .wrapper .gover_left .govr_search input:focus {
+    width: 572px;
+    height: 46px;
+    line-height: 46px;
+    border: 1px solid #C1C1C1;
+    background: url(../img/mark/sousuo.png) no-repeat 2% center;
+    text-indent: 62px;
+    color: #bbbaba;
+    font-size: 14px;
+    float: left;
+    outline: none;
+}
+
+.goverEnterprise .wrapper .gover_left .govr_search button {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    background: #ffbd30;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 18px;
+    border: none;
+    float: left;
+}
+
+.goverEnterprise .wrapper .gover_left .govSlide {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.goverEnterprise .wrapper .gover_left .govSlide .hd ul {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #eee;
+}
+
+.goverEnterprise .wrapper .gover_left .govSlide .hd ul li {
+    float: left;
+    font-size: 18px;
+    color: #666;
+    text-indent: 15px;
+    margin-right: 70px;
+}
+
+.goverEnterprise .wrapper .gover_left .govSlide .hd ul li.on {
+    color: #23a6cc;
+    background: url(../img/mark/point.png) no-repeat left center;
+}
+
+.goverEnterprise .wrapper .gover_left .govSlide .bd ul .content {
+    width: 100%;
+}
+
+.goverEnterprise .wrapper .gover_left .govSlide .bd ul .content .content_tit {
+    margin-top: 25px;
+}
+
+.goverEnterprise .wrapper .gover_left .govSlide .bd ul .content .content_tit i {
+    font-size: 24px;
+    font-family: serif;
+}
+
+.goverEnterprise .wrapper .gover_left .govSlide .bd ul .content .content_tit span {
+    font-size: 16px;
+}
+
+.goverEnterprise .wrapper .gover_left .govSlide .bd ul .content .content_top {
+    padding-bottom: 25px;;
+    border-bottom: 1px solid #eee;
+}
+
+.goverEnterprise .wrapper .gover_left .govSlide .bd ul .content .content_bottom {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #eee;
+}
+
+.goverEnterprise .wrapper .gover_left .govSlide .bd ul .content .content_top .content_tit {
+    color: #65c1db;
+}
+
+.goverEnterprise .wrapper .gover_left .govSlide .bd ul .content .content_bottom .content_tit {
+    color: #ff4a60;
+}
+
+.goverEnterprise .wrapper .gover_left .govSlide .bd ul .content .content_list {
+
+}
+
+.goverEnterprise .wrapper .gover_left .govSlide .bd ul .content .content_list .list {
+    width: 130px;
+    float: left;
+    margin: 20px 15px 0 0;
+}
+
+.goverEnterprise .wrapper .gover_left .govSlide .bd ul .content .content_list .list img {
+    width: 62px;
+    height: 62px;
+    margin: 0 auto;
+    display: block;
+}
+
+.goverEnterprise .wrapper .gover_left .govSlide .bd ul .content .content_list .list span {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_fair {
+    margin-top: 30px;
+    padding-bottom: 60px;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_fair ul li {
+    width: 362px;
+    height: 134px;
+    float: left;
+    border: 1px solid #fff;
+    margin-top: 30px;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_left_bttom {
+    padding: 40px 0 87px 0;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_left_bttom ul li {
+    width: 240px;
+    float: left;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_left_bttom ul li img {
+    width: 110px;
+    height: 110px;
+    display: block;
+    margin: 0 auto;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_left_bttom ul li span {
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    color: #333;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.goverEnterprise .wrapper .gover_right {
+    width: 324px;
+    height: auto;
+}
+
+.goverEnterprise .wrapper .gover_right .gover_right_notify .gover_notify_tit {
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    margin-bottom: 10px;
+    border-top: 2px solid #3899f6;
+    border-bottom: 1px dashed #eee;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
+.goverEnterprise .wrapper .gover_right .gover_right_notify ul li {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.goverEnterprise .wrapper .gover_right .gover_right_notify ul li p {
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333;
+    background: url("../img/mark/jiantou.png") no-repeat left 6px;
+}
+
+.goverEnterprise .wrapper .gover_right .gover_right_notify ul li .li_det {
+    margin-top: 15px;
+}
+
+.goverEnterprise .wrapper .gover_right .gover_right_notify ul li .li_det span {
+    font-size: 12px;
+    color: #999;
+    float: left;
+    padding-left: 20px;
+}
+
+.goverEnterprise .wrapper .gover_right .gover_right_notify ul li .li_det a {
+    font-size: 12px;
+    color: #3899f6;
+    float: right;
+}
+
+.goverEnterprise .wrapper .gover_right .gover_right_bottom {
+    border-top: 1px dashed #3899f6;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding-top: 20px;
+}
+
+.goverEnterprise .wrapper .gover_right .gover_right_bottom ul li {
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.goverEnterprise .wrapper .gover_right .gover_right_bottom ul li .ico {
+    width: 58px;
+    height: 58px;
+    border: 1px solid #e7e7e7;
+}
+
+.goverEnterprise .wrapper .gover_right .gover_right_bottom ul li .ico i {
+    display: block;
+    background: url(../img/mark/gov-ico.png) no-repeat;
+    margin: 18px auto;
+}
+
+.goverEnterprise .wrapper .gover_right .gover_right_bottom ul li .ico i.gov_01 {
+    background-position: -2px 0;
+    width: 27px;
+    height: 23px;
+}
+
+.goverEnterprise .wrapper .gover_right .gover_right_bottom ul li .ico i.gov_02 {
+    background-position: -1px -69px;
+    width: 27px;
+    height: 24px;
+}
+
+.goverEnterprise .wrapper .gover_right .gover_right_bottom ul li .ico i.gov_03 {
+    background-position: 0 -140px;
+    width: 28px;
+    height: 22px;
+}
+
+.goverEnterprise .wrapper .gover_right .gover_right_bottom ul li .ico i.gov_04 {
+    background-position: 0 -211px;
+    width: 28px;
+    height: 22px;
+}
+
+.goverEnterprise .wrapper .gover_right .gover_right_bottom ul li .txt {
+    margin-left: 22px;
+}
+
+.goverEnterprise .wrapper .gover_right .gover_right_bottom ul li .txt span {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    margin-top: 8px;
+}
+
+.goverEnterprise .wrapper .gover_right .gover_right_bottom ul li .txt p {
+    font-size: 14px;
+    color: #999;
+    margin-top: 12px;
+}
+
+/********
+    四级页面修改
+********/
+
+.prodDetail .mainCon .productInfo .selector-container .itemName {
+    width: auto !important;
+    margin: 0;
+}
+
+.prodDetail .mainCon .productInfo .selector-container .selector {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.prodDetail .mainCon .productInfo .selector select {
+    padding: 4px 10px;
+    font-size: 14px;
+    height: 33px;
+    margin-top: -6px;
+}
+
+.prodDetail .detail-introduce-img {
+    margin: 120px 0 0 0;
+}
+
+.prodDetail .slideTxtBox {
+    padding: 0 0 50px 0;
+}
+
+/********
+    应用超市修改
+********/
+
+.advantage .advantage_box_tit .floor-title {
+    font-size: 34px;
+    color: #333;
+    text-align: center;
+}
+
+.advantage .advantage_box01 .advantage_box_txt {
+    padding: 125px 0 0 0;
+    background: url(../img/product-advantage/floor-1-left-img.png) no-repeat 0 12px;
+}
+
+.advantage .new-floor-style .floor-title {
+    font-size: 34px;
+    color: #333;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.advantage .new-floor-style .floor-center {
+    width: 1170px;
+    height: 630px;
+    margin: 0 auto;
+}
+
+.advantage .advantage-floor2 {
+    width: 100%;
+    height: 630px;
+    background: #f7f7f7;
+}
+
+.advantage .advantage-floor2 .floor-center {
+    background: url(../img/product-advantage/floor-2-bj.png) no-repeat right bottom;
+}
+
+.advantage .advantage-floor2 .floor-description {
+    margin: 120px 0 0 15px;
+}
+
+.advantage .advantage-floor2 .floor-description p {
+    font-size: 14px;
+    color: #333;
+    line-height: 36px;
+}
+
+.advantage .advantage-floor2 .floor-btns {
+    margin: 20px 0 0 0;
+}
+
+.advantage .new-floor-style .floor-btns a,
+.advantage .new-floor-style .floor-btns a:visited,
+.advantage .new-floor-style .floor-btns a:hover {
+    text-decoration: none;
+    display: inline-block;
+    width: 119px;
+    height: 36px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 36px;
+    border-radius: 2px;
+}
+
+.advantage .new-floor-style .floor-btns .service-open {
+    background: #ffbc52;
+    color: #fff;
+}
+
+.advantage .new-floor-style .floor-btns .free-try,
+.advantage .new-floor-style .floor-btns .free-try:visited,
+.advantage .new-floor-style .floor-btns .free-try:hover {
+    background: #fff;
+    width: 117px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #5cc467;
+    color: #5cc467;
+    margin: 0 0 0 60px;
+}
+
+.advantage .advantage-floor3 .floor-center {
+    background: url(../img/product-advantage/floor-3-bj.png) no-repeat 100px 180px;
+}
+
+.advantage .advantage-floor3 .floor-description {
+    float: left;
+    margin: 220px 0 0 15px;
+    padding: 10px;
+    background: #ffdeaa;
+}
+
+.advantage .advantage-floor3 .floor-description p {
+    font-size: 16px;
+    color: #e39b2a;
+}
+
+.advantage .advantage-floor3 .ico-groups,
+.advantage .advantage-floor4 .ico-groups {
+    float: right;
+}
+
+.advantage .advantage-floor3 .type-icon,
+.advantage .advantage-floor4 .type-icon {
+    width: 750px;
+    padding: 0 0 0 15px;
+}
+
+.advantage .advantage-floor3 .type-icon .type-ico-each,
+.advantage .advantage-floor4 .type-icon .type-ico-each {
+    width: 238px;
+    height: 88px;
+    border: 1px solid #f0f0f0;
+    margin: 5px;
+    background: rgba(255, 255, 255, 0.53);
+}
+
+.advantage .advantage-floor3 .type-icon .type-ico-each:hover,
+.advantage .advantage-floor4 .type-icon .type-ico-each:hover {
+    border: 1px solid #3899f6;
+    background: #3899f6;
+}
+
+.advantage .advantage-floor3 .type-icon .type-ico-each .ico-logo,
+.advantage .advantage-floor4 .type-icon .type-ico-each .ico-logo {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../img/product-advantage/floor-3-ico.png) no-repeat;
+}
+
+.advantage .advantage-floor4 .type-icon .type-ico-each .ico-logo {
+    background: url(../img/product-advantage/floor4-icos.png) no-repeat;
+}
+
+.advantage .advantage-floor6 .type-icon .type-ico-each .ico-logo {
+    background: url(../img/product-advantage/floor6-icos.png) no-repeat;
+}
+
+.advantage .advantage-floor7 .type-icon .type-ico-each .ico-logo {
+    background: url(../img/product-advantage/floor7-icos.png) no-repeat;
+}
+
+.advantage .advantage-floor8 .type-icon .type-ico-each .ico-logo {
+    background: url(../img/product-advantage/floor8-icos.png) no-repeat;
+}
+
+.advantage .advantage-floor3 .type-icon .ico-1 .ico-logo,
+.advantage .advantage-floor4 .type-icon .ico-1 .ico-logo {
+    background-position: -15px 0;
+}
+
+.advantage .advantage-floor6 .type-icon .ico-1 .ico-logo {
+    background-position: -15px 5px;
+}
+
+.advantage .advantage-floor3 .type-icon .ico-1:hover .ico-logo,
+.advantage .advantage-floor4 .type-icon .ico-1:hover .ico-logo {
+    background-position: -15px -288px;
+}
+
+.advantage .advantage-floor6 .type-icon .ico-1:hover .ico-logo {
+    background-position: -15px -280px;
+}
+
+.advantage .advantage-floor3 .type-icon .ico-2 .ico-logo,
+.advantage .advantage-floor4 .type-icon .ico-2 .ico-logo {
+    background-position: -250px 0;
+}
+
+.advantage .advantage-floor6 .type-icon .ico-2 .ico-logo {
+    background-position: -250px 5px;
+}
+
+.advantage .advantage-floor3 .type-icon .ico-2:hover .ico-logo,
+.advantage .advantage-floor4 .type-icon .ico-2:hover .ico-logo {
+    background-position: -250px -288px;
+}
+
+.advantage .advantage-floor6 .type-icon .ico-2:hover .ico-logo {
+    background-position: -250px -280px;
+}
+
+.advantage .advantage-floor3 .type-icon .ico-3 .ico-logo,
+.advantage .advantage-floor4 .type-icon .ico-3 .ico-logo {
+    background-position: -514px 0;
+}
+
+.advantage .advantage-floor6 .type-icon .ico-3 .ico-logo {
+    background-position: -514px 5px;
+}
+
+.advantage .advantage-floor3 .type-icon .ico-3:hover .ico-logo,
+.advantage .advantage-floor4 .type-icon .ico-3:hover .ico-logo {
+    background-position: -514px -288px;
+}
+
+.advantage .advantage-floor6 .type-icon .ico-3:hover .ico-logo {
+    background-position: -514px -280px;
+}
+
+.advantage .advantage-floor3 .type-icon .ico-4 .ico-logo,
+.advantage .advantage-floor4 .type-icon .ico-4 .ico-logo {
+    background-position: -15px -100px;
+}
+
+.advantage .advantage-floor6 .type-icon .ico-4 .ico-logo {
+    background-position: -15px -95px;
+}
+
+.advantage .advantage-floor3 .type-icon .ico-4:hover .ico-logo,
+.advantage .advantage-floor4 .type-icon .ico-4:hover .ico-logo {
+    background-position: -15px -388px;
+}
+
+.advantage .advantage-floor6 .type-icon .ico-4:hover .ico-logo {
+    background-position: -15px -380px;
+}
+
+.advantage .advantage-floor3 .type-icon .ico-5 .ico-logo,
+.advantage .advantage-floor4 .type-icon .ico-5 .ico-logo {
+    background-position: -250px -100px;
+}
+
+.advantage .advantage-floor6 .type-icon .ico-5 .ico-logo {
+    background-position: -250px -95px;
+}
+
+.advantage .advantage-floor3 .type-icon .ico-5:hover .ico-logo,
+.advantage .advantage-floor4 .type-icon .ico-5:hover .ico-logo {
+    background-position: -250px -388px;
+}
+
+.advantage .advantage-floor6 .type-icon .ico-5:hover .ico-logo {
+    background-position: -250px -380px;
+}
+
+.advantage .advantage-floor3 .type-icon .ico-6 .ico-logo,
+.advantage .advantage-floor4 .type-icon .ico-6 .ico-logo {
+    background-position: -514px -100px;
+}
+
+.advantage .advantage-floor6 .type-icon .ico-6 .ico-logo {
+    background-position: -514px -95px;
+}
+
+.advantage .advantage-floor3 .type-icon .ico-6:hover .ico-logo,
+.advantage .advantage-floor4 .type-icon .ico-6:hover .ico-logo {
+    background-position: -514px -388px;
+}
+
+.advantage .advantage-floor6 .type-icon .ico-6:hover .ico-logo {
+    background-position: -514px -380px;
+}
+
+.advantage .advantage-floor3 .type-icon .ico-7 .ico-logo,
+.advantage .advantage-floor4 .type-icon .ico-7 .ico-logo {
+    background-position: -15px -205px;
+}
+
+.advantage .advantage-floor6 .type-icon .ico-7 .ico-logo {
+    background-position: -15px -200px;
+}
+
+.advantage .advantage-floor3 .type-icon .ico-7:hover .ico-logo,
+.advantage .advantage-floor4 .type-icon .ico-7:hover .ico-logo {
+    background-position: -15px -493px;
+}
+
+.advantage .advantage-floor6 .type-icon .ico-7:hover .ico-logo {
+    background-position: -15px -485px;
+}
+
+.advantage .advantage-floor4 .type-icon .ico-8 .ico-logo {
+    background-position: -250px -205px;
+}
+
+.advantage .advantage-floor6 .type-icon .ico-6 .ico-logo {
+    background-position: -15px -180px;
+}
+
+.advantage .advantage-floor4 .type-icon .ico-8:hover .ico-logo {
+    background-position: -255px -493px;
+}
+
+.advantage .advantage-floor6 .type-icon .ico-8:hover .ico-logo {
+    background-position: -250px -488px;
+}
+
+.advantage .advantage-floor4 {
+    width: 100%;
+    height: 630px;
+    background: #f7f7f7;
+}
+
+.advantage .advantage-floor4 .floor-center {
+    background: url(../img/product-advantage/floor-4-bj.png) no-repeat 125px 170px;
+}
+
+.advantage .advantage-floor4 .floor-center .finance-manage-btns {
+    width: 550px;
+    padding: 0 0 20px 0;
+}
+
+.advantage .advantage-floor4 .floor-center .finance-manage-btns a {
+    display: inline-block;
+    width: 118px;
+    height: 38px;
+    background: #fff;
+    border: 1px solid #3899f6;
+    text-align: center;
+    font-size: 16px;
+    color: #3899f6;
+    line-height: 40px;
+    text-decoration: none;
+    margin: 10px 10px 0 0;
+}
+
+.advantage .advantage-floor4 .floor-center .finance-manage-btns a:hover {
+    background: #3899f6;
+    color: #fff;
+}
+
+.advantage .advantage-floor4 .floor-center .left-description {
+    margin: 180px 0 0 20px;
+    width: 360px;
+}
+
+.advantage .advantage-floor4 .floor-center .floor-description {
+    width: 600px;
+    float: right;
+    margin: 0 50px 0 0;
+}
+
+.advantage .advantage-floor4 .floor-center .floor-description p {
+    font-size: 16px;
+    color: #333;
+    line-height: 34px;
+}
+
+.advantage .advantage-floor5 {
+    width: 100%;
+    height: 630px;
+    padding: 20px 0 0 0;
+}
+
+.advantage .advantage-floor5 .floor-center {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.advantage .advantage-floor5 .floor-description p {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.advantage .advantage-floor5 .sales-manage-btns {
+    width: 1170px;
+    padding: 40px 0 0 0;
+}
+
+.advantage .advantage-floor5 .sales-manage-btns .btn-each,
+.advantage .advantage-floor9 .sales-manage-btns .btn-each {
+    display: inline-block;
+    width: 283px;
+    height: 124px;
+    margin: 2px;
+    border: 1px solid #dadada;
+    background: rgba(255, 255, 255, 0.53) url(../img/product-advantage/floor5-icos.png) no-repeat;
+}
+
+.advantage .advantage-floor9 .sales-manage-btns .btn-each {
+    background: rgba(255, 255, 255, 0.53) url(../img/product-advantage/floor9-icos.png) no-repeat;
+}
+
+.advantage .advantage-floor5 .sales-manage-btns .btn-each:hover,
+.advantage .advantage-floor9 .sales-manage-btns .btn-each:hover {
+    border: 1px solid #3899f6;
+    background-color: #3899f6;
+}
+
+.advantage .advantage-floor5 .sales-manage-btns .btn-1,
+.advantage .advantage-floor9 .sales-manage-btns .btn-1 {
+    background-position: 72px 5px;
+}
+
+.advantage .advantage-floor5 .sales-manage-btns .btn-1:hover,
+.advantage .advantage-floor9 .sales-manage-btns .btn-1:hover {
+    background-position: 72px -263px;
+}
+
+.advantage .advantage-floor5 .sales-manage-btns .btn-2,
+.advantage .advantage-floor9 .sales-manage-btns .btn-2 {
+    background-position: -225px 5px;
+}
+
+.advantage .advantage-floor5 .sales-manage-btns .btn-2:hover,
+.advantage .advantage-floor9 .sales-manage-btns .btn-2:hover {
+    background-position: -225px -263px;
+}
+
+.advantage .advantage-floor5 .sales-manage-btns .btn-3,
+.advantage .advantage-floor9 .sales-manage-btns .btn-3 {
+    background-position: -520px 5px;
+}
+
+.advantage .advantage-floor5 .sales-manage-btns .btn-3:hover,
+.advantage .advantage-floor9 .sales-manage-btns .btn-3:hover {
+    background-position: -520px -263px;
+}
+
+.advantage .advantage-floor5 .sales-manage-btns .btn-4,
+.advantage .advantage-floor9 .sales-manage-btns .btn-4 {
+    background-position: -820px 5px;
+}
+
+.advantage .advantage-floor5 .sales-manage-btns .btn-4:hover,
+.advantage .advantage-floor9 .sales-manage-btns .btn-4:hover {
+    background-position: -820px -263px;
+}
+
+.advantage .advantage-floor5 .sales-manage-btns .btn-5,
+.advantage .advantage-floor9 .sales-manage-btns .btn-5 {
+    background-position: 72px -130px;
+}
+
+.advantage .advantage-floor5 .sales-manage-btns .btn-5:hover,
+.advantage .advantage-floor9 .sales-manage-btns .btn-5:hover {
+    background-position: 72px -398px;
+}
+
+.advantage .advantage-floor5 .sales-manage-btns .btn-6,
+.advantage .advantage-floor9 .sales-manage-btns .btn-6 {
+    background-position: -225px -130px;
+}
+
+.advantage .advantage-floor5 .sales-manage-btns .btn-6:hover,
+.advantage .advantage-floor9 .sales-manage-btns .btn-6:hover {
+    background-position: -225px -398px;
+}
+
+.advantage .advantage-floor5 .sales-manage-btns .btn-7,
+.advantage .advantage-floor9 .sales-manage-btns .btn-7 {
+    background-position: -520px -130px;
+}
+
+.advantage .advantage-floor5 .sales-manage-btns .btn-7:hover,
+.advantage .advantage-floor9 .sales-manage-btns .btn-7:hover {
+    background-position: -520px -398px;
+}
+
+.advantage .advantage-floor5 .sales-manage-btns .btn-8,
+.advantage .advantage-floor9 .sales-manage-btns .btn-8 {
+    background-position: -820px -130px;
+}
+
+.advantage .advantage-floor5 .sales-manage-btns .btn-8:hover,
+.advantage .advantage-floor9 .sales-manage-btns .btn-8:hover {
+    background-position: -820px -398px;
+}
+
+.advantage .advantage-floor6 {
+    width: 100%;
+    height: 630px;
+    background: #f7f7f7;
+}
+
+.advantage .advantage-floor6 .floor-center {
+    background: url(../img/product-advantage/floor-6-bj.png) no-repeat 125px 200px;
+}
+
+.advantage .advantage-floor6 .suppler-manage-btns {
+    width: 575px;
+    padding: 0 0 10px 0;
+}
+
+.advantage .advantage-floor6 .suppler-manage-btns .btn-each {
+    display: inline-block;
+    width: 128px;
+    height: 38px;
+    background: #fff;
+    font-size: 16px;
+    color: #58c8cb;
+    text-align: center;
+    line-height: 38px;
+    border: 1px solid #58c8cb;
+    margin: 0 10px 10px 0;
+}
+
+.advantage .advantage-floor6 .suppler-manage-btns .btn-each:hover {
+    background: #58c8cb;
+    color: #fff;
+}
+
+.advantage .advantage-floor6 .floor-center .floor-description p {
+    font-size: 16px;
+    color: #333;
+}
+
+.advantage .advantage-floor7 {
+    width: 100%;
+    height: 580px;
+    background: #fff;
+}
+
+.advantage .advantage-floor7 .floor-center {
+    width: 1170px;
+    height: 580px;
+    margin: 0 auto;
+    background: url(../img/product-advantage/floor-7-bj.png) no-repeat 140px 170px;
+}
+
+.advantage .advantage-floor7 .custom-manage-btns {
+    width: 570px;
+    padding: 0 0 20px 0;
+}
+
+.advantage .advantage-floor7 .floor-center .left-description {
+    margin: 120px 0 0 20px;
+}
+
+.advantage .advantage-floor7 .custom-manage-btns .btn-each {
+    display: inline-block;
+    width: 168px;
+    height: 38px;
+    float: left;
+    text-align: center;
+    line-height: 38px;
+    font-size: 16px;
+    border: 1px solid #3899f6;
+    color: #3899f6;
+    margin: 0 10px 10px 0;
+}
+
+.advantage .advantage-floor7 .custom-manage-btns .btn-each:hover {
+    background: #3899f6;
+    color: #fff;
+}
+
+.advantage .advantage-floor7 .floor-description {
+    padding: 10px 0 0 0;
+}
+
+.advantage .advantage-floor7 .floor-description p {
+    font-size: 16px;
+    color: #333;
+}
+
+.advantage .advantage-floor8 {
+    width: 100%;
+    height: 580px;
+    background: #fff;
+}
+
+.advantage .advantage-floor8 .floor-center {
+    width: 1170px;
+    height: 580px;
+    background: none;
+}
+
+.advantage .advantage-floor8 .floor-center .content-area {
+    width: 660px;
+    margin: 0 0 0 515px;
+}
+
+.advantage .advantage-floor8 .floor-center .left-description {
+    margin: 50px 0 0 20px;
+}
+
+.advantage .advantage-floor8 .service-support-manage-btns {
+    width: 600px;
+    overflow: hidden;
+    padding: 0 0 10px 0;
+}
+
+.advantage .advantage-floor8 .service-support-manage-btns .btn-each {
+    display: inline-block;
+    width: 118px;
+    height: 38px;
+    float: left;
+    margin: 0 10px 10px 0;
+    font-size: 16px;
+    text-align: center;
+    line-height: 38px;
+    border: 1px solid #3899f6;
+    color: #3899f6;
+}
+
+.advantage .advantage-floor8 .floor-description p {
+    font-size: 16px;
+    color: #333;
+}
+
+.advantage .advantage-floor8 .service-support-manage-btns .btn-each:hover {
+    background: #3899f6;
+    color: #fff;
+}
+
+.advantage .advantage-floor9 .floor-center {
+    background: none;
+}
+
+.advantage .advantage-floor9 .floor-center .floor-description {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 0 0 40px 0;
+}
+
+.advantage .advantage-floor9 .floor-center .ico-groups {
+    width: 765px;
+    float: none;
+    margin: 0 auto;
+}
+
+.advantage .advantage-floor9 .sales-manage-btns {
+    width: 1170px;
+}
+
+.advantage .advantage_box02 {
+    margin-top: 0;
+}
+
+.advantage .advantage_box03 {
+    margin-top: 0;
+    height: 655px;
+    background: #f7f7f7;
+}
+
+.advantage .advantage_box03 .advantage_box_tit {
+    width: 100%;
+    margin: 0;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.advantage .box-new-last .advantage_box_tit {
+    padding: 60px 0 40px 0;
+}
+
+.advantage .box-new-last .advantage_box_txt {
+    margin-top: 0;
+}
+
+.advantage .box-new-last .advantage_box_txt .btn-each {
+    display: inline-block;
+    width: 128px;
+    height: 38px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 38px;
+    color: #3899f6;
+    border: 1px solid #3899f6;
+    background: #fff;
+    margin: 0 10px 10px 0;
+}
+
+.advantage .box-new-last .advantage_box_txt .btn-each:hover {
+    background: #3899f6;
+    color: #fff;
+}
+
+.advantage .advantage_box01 {
+    margin-top: 50px;
+}
+
+.advantage .advantage_box01 .advantage_box_img ul li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+/*****************
+    政企服务修改
+*****************/
+
+.goverEnterprise .wrapper .gover_left .gover_fair ul li.fair-item {
+    width: 248px;
+    height: 182px;
+    border: none;
+    margin: 0;
+    float: left;
+    position: relative;
+    background: url(../img/goverment/type-icon.png) no-repeat;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_fair ul li.fair_02,
+.goverEnterprise .wrapper .gover_left .gover_fair ul li.fair_05 {
+    margin: 0 1px;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_fair ul li.fair_04,
+.goverEnterprise .wrapper .gover_left .gover_fair ul li.fair_05,
+.goverEnterprise .wrapper .gover_left .gover_fair ul li.fair_06 {
+    margin: 1px 0 0 0;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_fair ul li.fair_05 {
+    margin: 1px 1px 0 1px;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_fair ul li.fair-item .fair-container {
+    display: block;
+    width: 248px;
+    height: 182px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.3s;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_fair ul li.hover .fair-container {
+    width: 260px;
+    height: 194px;
+    top: -6px;
+    left: -6px;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_fair ul li.fair_01 .fair-container {
+    background: #a6cd48;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_fair ul li.fair_02 .fair-container {
+    background: #ff6f80;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_fair ul li.fair_03 .fair-container {
+    background: #6ab6ff;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_fair ul li.fair_04 .fair-container {
+    background: #a789eb;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_fair ul li.fair_05 .fair-container {
+    background: #ffbd30;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_fair ul li.fair_06 .fair-container {
+    background: #59ddd8;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_fair ul li.fair-item .fair-inner {
+    display: block;
+    width: 248px;
+    height: 182px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(../img/goverment/type-icon.png) no-repeat;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_fair ul li.fair_01 .fair-inner {
+    background-position: 0 0;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_fair ul li.fair_02 .fair-inner {
+    background-position: -251px 0;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_fair ul li.fair_03 .fair-inner {
+    background-position: -502px 0;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_fair ul li.fair_04 .fair-inner {
+    background-position: 0 -184px;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_fair ul li.fair_05 .fair-inner {
+    background-position: -251px -184px;
+}
+
+.goverEnterprise .wrapper .gover_left .gover_fair ul li.fair_06 .fair-inner {
+    background-position: -502px -184px;
+}
+
+.prodDetail .storage-number {
+    display: inline-block;
+    margin: 4px 0 0 0;
+}
+
+.count-control .reduce-count {
+    display: inline-block;
+    width: 17px;
+    height: 20px;
+    float: left;
+    background: url(../img/mark/operate-count-btn.png) no-repeat right top;
+}
+
+.count-control .add-count {
+    display: inline-block;
+    width: 17px;
+    height: 20px;
+    float: left;
+    background: url(../img/mark/operate-count-btn.png) no-repeat left top;
+}
+
+.count-control .count-input-filed {
+    display: inline-block;
+    width: 50px;
+    height: 18px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.prodDetail .productType .count-ctrl,
+.prodDetail .productType .unit {
+    display: inline-block;
+    float: left;
+}
+
+.prodDetail .productType .unit {
+    line-height: 20px;
+    padding: 0 0 0 10px;
+}
+.prodDetail .mainCon .productInfo .chosenType .wait-select {
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid #ddd;
+    color: #333;
+    margin: 0 5px 0 0;
+    cursor: pointer;
+}
+.prodDetail .mainCon .productInfo .chosenType .on {
+    color: #f97802;
+    border-color: #f97802;
+}
+
+.advantage section:nth-child(odd) {
+    background: #f7f7f7;
+}
+
+.advantage section:nth-child(even) {
+    background: #fff;
+}
+
+.advantage section {
+    width: 100%;
+    height: 630px;
+}
+
+.advantage section .section-main,
+.advantage section .section-main-img {
+    width: 1170px;
+    height: 630px;
+    margin: 0 auto;
+}
+
+.advantage section h3 {
+    text-align: center;
+    font-size: 34px;
+    padding: 60px 0;
+    color: #333;
+}
+
+.advantage section .section-main-img .type-desc {
+    width: 360px;
+    float: left;
+    text-align: center;
+}
+
+.advantage section .section-main-img .type-desc img {
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.advantage section .section-main-img .type-desc p {
+    width: 90%;
+    margin-left: 5%;
+    text-align: left;
+    word-break: break-all;
+}
+
+.advantage section .section-main .type-desc p {
+    width: 92%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 0 40px 0;
+    font-size: 16px;
+}
+
+.advantage section .section-main-img .type-prod {
+    float: right;
+    width: 750px;
+}
+
+.advantage section .section-main .type-prod {
+    width: 1170px;
+}
+
+.advantage section .section-main-img .type-prod .prod-item {
+    width: 238px;
+    height: 88px;
+    border: 1px solid #f0f0f0;
+    margin: 5px;
+    background: rgba(255, 255, 255, 0.53);
+    float: left;
+}
+
+.advantage section .section-main .type-prod .prod-item {
+    display: inline-block;
+    width: 283px;
+    height: 124px;
+    margin: 2px;
+    border: 1px solid #dadada;
+    background: rgba(255, 255, 255, 0.53);
+}
+
+/*.type-prod .prod-item {*/
+    /*-webkit-transition: all 0.15s;*/
+    /*-moz-transition: all 0.15s;*/
+    /*-ms-transition: all 0.15s;*/
+    /*-o-transition: all 0.15s;*/
+    /*transition: all 0.15s;*/
+/*}*/
+
+/*.type-prod .prod-item:hover {*/
+    /*-webkit-transform: scale(1.25, 1.25);*/
+    /*-moz-transform: scale(1.25, 1.25);*/
+    /*-ms-transform: scale(1.25, 1.25);*/
+    /*-o-transform: scale(1.25, 1.25);*/
+    /*transform: scale(1.25, 1.25);*/
+/*}*/
+
+.advantage section .section-main-img .type-prod .prod-item:hover {
+    background: #3899f6;
+    color: #fff;
+}
+
+.advantage section .section-main .type-prod .prod-item:hover {
+    background: #3899f6;
+    color: #fff;
+}
+
+.advantage section .section-main-img .type-prod .prod-item img {
+    width: 41px;
+    height: 39px;
+    margin: 25px 0 0 30px;
+}
+
+.advantage section .section-main-img .type-prod .prod-item span {
+    color: #3899f6;
+    font-size: 16px;
+    float: right;
+    position: relative;
+    top: 40px;
+    width: 130px;
+}
+
+.advantage section .section-main-img .type-prod .prod-item:hover span {
+    color: #fff;
+}
+
+.advantage section .section-main .type-prod .prod-item img {
+    width: 43px;
+    height: 41px;
+    position: relative;
+    top: 28px;
+    left: 120px;
+}
+
+.advantage section .section-main .type-prod .prod-item span {
+    color: #3899f6;
+    font-size: 16px;
+    position: relative;
+    top: 47px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.advantage section .section-main .type-prod .prod-item:hover span {
+    color: #fff;
+}

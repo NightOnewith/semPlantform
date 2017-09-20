@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 引入jdbc配置文件 -->
+<!--
+    <context:property-placeholder location="classpath:user.properties" ignore-unresolvable="true" />
+-->
+
+
+
+<!--    &lt;!&ndash; 凭证匹配器 &ndash;&gt;
+    <bean id="credentialsMatcher" class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
+        <property name="hashAlgorithmName" value="md5" />
+        <property name="hashIterations" value="2" />
+        <property name="storedCredentialsHexEncoded" value="true" />
+    </bean>-->
+
+<!--     Realm实现
+    <bean id="userRealm" class="com.ai.ge.shiro.realm.UserRealm">
+        <property name="credentialsMatcher" ref="credentialsMatcher" />
+        <property name="cachingEnabled" value="false" />
+    </bean>-->
+
+<!--     Realm CAS实现
+    <bean id="casRealm" class="com.ai.ge.shiro.realm.UserCasRealm">
+        <property name="casServerUrlPrefix" value="${cas.inner.server}" />
+        <property name="casService" value="${cas.client}/cas" />
+    </bean>-->
+
+    <!-- 安全管理器 -->
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <!--<property name="realm" ref="userRealm" />-->
+        <!--<property name="realm" ref="casRealm" />-->
+    </bean>
+
+    <!--Shiro启动监听器，securityManager延迟注入realm，解决MyBatis事务失效问题-->
+    <bean class="com.ai.sso.shiro.listener.ShiroInitListener" />
+
+    <!-- 相当于调用SecurityUtils.setSecurityManager(securityManager) -->
+    <bean class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+        <property name="staticMethod" value="org.apache.shiro.SecurityUtils.setSecurityManager" />
+        <property name="arguments" ref="securityManager" />
+    </bean>
+
+<!--    &lt;!&ndash; 基于Form表单的身份验证过滤器 &ndash;&gt;
+    <bean id="formAuthenticationFilter" class="com.ai.ge.filter.EcFormAuthenticationFilter">
+        <property name="usernameParam" value="username" />
+        <property name="passwordParam" value="password" />
+        <property name="rememberMeParam" value="rememberMe" />
+        <property name="loginUrl" value="/login" />
+    </bean>-->
+
+    <bean id="sysUserFilter" class="net.wanho.filter.SysUserFilter" />
+
+    <bean id="casFilter" class="net.wanho.filter.CasSysUserFilter">
+        <property name="failureUrl" value="/casFailure.jsp" />
+    </bean>
+
+    <!-- Shiro生命周期处理器-->
+    <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor" />
+</beans>

@@ -1,0 +1,210 @@
+.bill{
+	width:100%;
+}
+.bill .top_line{
+	width:100%;
+	height:6px;
+	background:#ff5c26;
+}
+.bill_tit{
+	max-width:1000px;
+	margin:74px auto 30px auto;
+	text-indent: 22px;
+	font-size:42px;
+	color: #333333;
+}
+.bill_wrap{
+	max-width:1000px;
+	margin:0 auto;
+	border:1px solid #e0e0e0;
+}
+.bill_wrap ul{
+	width:925px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.bill_wrap ul li{
+	width:405px;
+	float:left;
+	margin-top:25px;
+	color:#333;
+	font-size:16px;
+}
+.bill_content table{
+	width: 945px;
+    margin:30px auto;
+    
+}
+.bill_content table th{
+	height: 42px;
+    line-height: 42px;
+    background: #f5f5f5;
+    text-align: center;
+}
+.bill_content table tr .tbl-0 {
+    width: 468px;
+}
+
+.bill_content table tr .tbl-1 {
+    width: 120px;
+}
+
+.bill_content table tr .tbl-2 {
+    width: 120px;
+}
+.bill_content table tr .tbl-3 {
+    width: 120px;
+}
+.bill_content table tr .tbl-4 {
+    width: 120px;
+}
+.bill_content table .content-tr{
+    border: 1px solid #e6e6e6;
+}
+.bill_content table .content-tr td {
+    height: 170px;
+    vertical-align:middle;
+}
+
+.bill_content table .content-tr td.tbl-0 {
+    border-right: 1px solid #e8e8e8;
+    padding-top: 10px;
+}
+.bill_content table .content-tr td.tbl-0 .goods{
+	width:416px;
+	margin:0 auto;
+}
+.bill_content table .content-tr td.tbl-0 .goods img{
+	width:108px;
+	height:108px;
+}
+.bill_content table .content-tr td.tbl-0 .goods .goods_detail{
+	margin-left:20px;
+	width:286px;
+}
+.bill_content table .content-tr td.tbl-0 .goods h3{
+	font-size:18px;
+	line-height:38px;
+	color:#333;
+}
+.bill_content table .content-tr td.tbl-0 .goods p{
+	color:#999;
+}
+.bill_content table .content-tr td.tbl-1 {
+    border-right: 1px solid #e8e8e8;
+}
+.bill_content table .content-tr td.tbl-2 {
+    border-right: 1px solid #e8e8e8;
+}
+.bill_content table .content-tr td.tbl-2 div{
+	width:100%;
+    text-align: center;
+}
+
+.bill_content table .content-tr td.tbl-2 div em{
+    font-size:18px;
+    color: #f41515;
+}
+
+.bill_content table .content-tr td.tbl-3 {
+    border-right: 1px solid #e8e8e8;
+}
+.bill_content table .content-tr td.tbl-num p {
+    text-align: center;
+}
+
+.bill_content table .content-tr td.tbl-num p font {   
+    font-size: 14px;
+    color: #333;
+    display: block;
+}
+.bill_take{
+	max-width:1000px;
+	margin:20px auto 50px;
+}
+.bill_take .bill_take_tit{
+	width:100%;
+	height:44px;
+	border-bottom:2px solid #ff5c26;
+}
+.bill_take .bill_take_tit li{
+	float:left;
+	width:113px;
+	height:42px;
+	line-height:42px;
+	border-left:1px solid #e0e0e0;
+	border-right:1px solid #e0e0e0;
+	border-top:1px solid #e0e0e0;
+	margin-left:15px;
+	text-align: center;
+	font-size:18px;
+	color:#444444;
+	
+}
+.bill_take .bill_take_tit li.active{
+	border-left:1px solid #ff5c26;
+	border-right:1px solid #ff5c26;
+	border-bottom:1px solid #ff5c26;
+	background:#ff5c26;
+	color:#fff;
+}
+.bill_take .bill_take_txt{
+	border-left:1px solid #e0e0e0;
+	border-right:1px solid #e0e0e0;
+	border-bottom:1px solid #e0e0e0;
+	overflow:hidden;
+	padding-bottom:80px;
+}
+.bill_take .bill_take_txt ul li{
+	float:left;
+	width:auto;
+	margin-top:44px;
+}
+.bill_take .bill_take_txt ul li label{
+	float:left;
+	width:122px;
+	text-align: right;
+	line-height:40px;
+	font-size:16px;
+}
+.bill_take .bill_take_txt ul li input{
+	float:left;
+	width:200px;
+	height:40px;
+	text-indent: 12px;
+	border:1px solid #e0e0e0;
+}
+.bill_take .bill_take_txt ul li label.assign{
+	color:#ff5c26;
+}
+.bill_take .bill_take_txt ul li input.ipt{
+	margin-right:30px;
+}
+.bill_take .bill_take_txt .bill_btn{
+	width:450px;
+	margin:0 auto;
+}
+.bill_take .bill_take_txt .bill_btn a{
+	display:block;
+	float:left;
+	width:205px;
+	height:40px;
+	line-height:40px;
+	font-size:16px;
+	text-align: center;
+	border:1px solid #ff5c26;
+	border-radius: 3px;
+	margin-top:80px;
+}
+.bill_take .bill_take_txt .bill_btn a:hover{
+	text-decoration: none;
+}
+.bill_take .bill_take_txt .bill_btn .tj_bill{
+	color:#fff;
+	background:#ff5c26;
+}
+.bill_take .bill_take_txt .bill_btn .close_bill{
+	color:#ff5c26;
+	background:#fff;
+	margin-left:40px;
+}

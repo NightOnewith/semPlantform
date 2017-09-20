@@ -1,0 +1,151 @@
+body {
+  background: #fff;
+}
+.login-ui .header {
+  height: 65px;
+  padding-top:45px;
+}
+.login-ui .header h2 {
+  font-size:30px;
+  color:#676767; 
+  font-weight: normal;
+}
+.login-ui .header a{
+	margin-top:20px;
+	font-size: 14px;
+	color:#888;
+}
+.login-ui .footer {
+  height: 96px;
+  padding-top: 44px;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+.login-ui .footer p span {
+  margin-left: 10px;
+}
+.login-ui .main-layout {
+  position: relative;
+  height: 483px;
+  overflow: hidden;
+}
+.login-ui .main-layout .background-ui {
+  position: absolute;
+  height: 483px;
+  width: 1440px;
+  left: 50%;
+  margin-left: -720px;
+}
+.login-ui .main-layout .background-ui img {
+  width: 100%;
+  height: 100%;
+}
+.login-ui .main-layout .wrapper {
+  position: relative;
+}
+.login-ui .main-layout .wrapper .login-layout {
+  width: 306px;
+  position: absolute;
+  z-index: 9;
+  background-color: #fff;
+  right: 84px;
+  top: 64px;
+  padding: 20px;
+  padding-bottom: 12px;
+}
+.login-ui .main-layout .wrapper .login-layout .layout-list {
+	background:url(../img/login/login_txt.png) no-repeat;
+  background-position: 0 0;
+  padding-top: 24px;
+}
+.login-ui .main-layout .wrapper .login-layout .layout-list .error {
+  margin: 5px 0;
+  line-height: 20px;
+  color: #e51111;
+}
+.login-ui .main-layout .wrapper .login-layout .layout-list ul {
+  width: 304px;
+  height: 118px;
+  background:url(../img/login/login_border.png) no-repeat;
+}
+.login-ui .main-layout .wrapper .login-layout .layout-list ul li {
+  line-height: 36px;
+  padding-top: 1px 0;
+  height: 39px;
+  padding-left: 50px;
+  background:url(../img/login/login_ico.png) no-repeat;
+}
+.login-ui .main-layout .wrapper .login-layout .layout-list ul li input {
+  background-color: transparent;
+  height: 30px;
+  line-height: 28px;
+  outline: 0;
+  border: 0;
+  margin-top: 3px;
+  width: 240px;
+}
+.login-ui .main-layout .wrapper .login-layout .layout-list ul li.lt-0 {
+  background-position: 16px 9px;
+}
+.login-ui .main-layout .wrapper .login-layout .layout-list ul li.lt-1 {
+  background-position: 16px -30px;
+}
+.login-ui .main-layout .wrapper .login-layout .layout-list ul li.lt-2 {
+  background-position: 16px -70px;
+}
+.login-ui .main-layout .wrapper .login-layout .layout-list ul li.lt-2 input {
+  width: 120px;
+  float: left;
+  border-right: 1px solid #dadada;
+}
+.login-ui .main-layout .wrapper .login-layout .layout-list ul li.lt-2 a {
+  display: block;
+  float: left;
+  height: 38px;
+  overflow: hidden;
+}
+.login-ui .main-layout .wrapper .login-layout .layout-list .li-op {
+  color: #999999;
+  line-height: 40px;
+}
+.login-ui .main-layout .wrapper .login-layout .layout-list .li-op .checkbox-ui {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 12px;
+  cursor: pointer;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #999999;
+  border-radius: 2px;
+}
+.login-ui .main-layout .wrapper .login-layout .layout-list .li-op .checkbox-ui:hover {
+  cursor: pointer;
+}
+.login-ui .main-layout .wrapper .login-layout .layout-list .li-op .checkbox-ui.on {
+  border: 0;
+  width: 16px;
+  height: 16px;
+  background:url(../img/login/checkon.jpg) no-repeat;
+}
+.login-ui .main-layout .wrapper .login-layout .layout-list .li-op a {
+  color: #999999;
+}
+.login-ui .main-layout .wrapper .login-layout .layout-list .login-button button {
+  border: 0;
+  cursor: pointer;
+  margin: 14px 0;
+  height: 38px;
+  line-height: 38px;
+  width: 304px;
+  background:url(../img/login/login_btn.png) no-repeat;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+.login-ui .main-layout .wrapper .login-layout .layout-list .bottom-ui a {
+  float: right;
+  color: #3899f6;
+  font-size:14px;
+}

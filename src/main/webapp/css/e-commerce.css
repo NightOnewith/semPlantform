@@ -1,0 +1,127 @@
+/*******
+    电子商务
+********/
+
+.e-commerce-container {
+    margin: 158px 0 0 0;
+}
+
+.e-commerce-container .banner {
+    width: 100%;
+    height: 485px;
+    background: url("../img/index/jianbian.png") repeat-x top;
+    position: relative;
+    overflow: hidden;
+}
+
+.e-commerce-container .banner .banner-center {
+    width: 1440px;
+    height: 485px;
+    background: url(../img/index/banner_5.jpg) no-repeat center;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin: 0 0 0 -720px;
+}
+
+.e-commerce-container .building {
+    width: 1002px;
+    padding: 245px 0 0 0;
+    margin: 0 auto;
+    background: url(../img/e-commerce/tips.png) no-repeat center 155px;
+}
+
+.e-commerce-container .building .description {
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+}
+
+.e-commerce-container .split-border {
+    width: 100%;
+    height: 1px;
+    margin: 130px 0 0 0;
+    background: #999;
+    position: relative;
+}
+
+.e-commerce-container .split-border .border-text {
+    position: absolute;
+    width: 98px;
+    left: 50%;
+    top: -15px;
+    text-align: center;
+    background: #fefefe;
+    font-size: 22px;
+    margin: 0 0 0 -49px;
+}
+
+.e-commerce-container .building .jump-area {
+    width: 831px;
+    height: auto;
+    margin: 100px auto 300px auto;
+}
+
+.e-commerce-container .building .jump-area a {
+    display: block;
+    width: 263px;
+    height: 73px;
+    background: #f0f6fc;
+    float: left;
+    background: url(../img/e-commerce/link-icon.png) no-repeat;
+}
+
+.e-commerce-container .building .jump-area .ico2 {
+    background-position: -283px 0;
+    margin: 0 20px;
+}
+
+.e-commerce-container .building .jump-area .ico3 {
+    background-position: -566px 0;
+}
+/*****
+    三级列表页面
+*****/
+.label-select {
+    width: 90px;
+    float: left;
+    margin: 20px 10px;
+}
+
+.no-ompetence-container {
+    width: 100%;
+    height: 650px;
+    margin: 160px 0 0 0;
+}
+
+.no-ompetence-container .top-bj {
+    width: 969px;
+    height: 545px;
+    background: url(../img/index/error.jpg) no-repeat center;
+    margin: 0 auto;
+}
+
+
+.no-ompetence-container .btns {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.no-ompetence-container .btns .index-link {
+    display: block;
+    width: 108px;
+    height: 38px;
+    background: #ffbc52;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 38px;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+.menu-item .un-checkbtn {
+    color: #f97802;
+    padding: 0 15px 0 0;
+}

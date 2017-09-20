@@ -1,0 +1,338 @@
+/******
+    解决方案
+******/
+
+.solution-container {
+    margin: 158px 0 30px 0;
+}
+
+.solution-container .banner {
+    width: 100%;
+    height: 485px;
+    background: #29364D;
+    position: relative;
+}
+
+.solution-container .banner .banner-center {
+    /*width: 1440px;*/
+    width: 100%;
+    height: 485px;
+    background: url(../img/banner-new/banner-4.png) no-repeat center #1e2a44;
+    position: absolute;
+    /*left: 50%;
+    top: 0;
+    margin: 0 0 0 -720px;*/
+    margin: 0 auto;
+}
+
+.solution-container .solution-container-center {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.solution-container .title-area {
+    width: 100%;
+    height: 63px;
+    margin: 50px 0;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    line-height: 63px;
+}
+
+.title-area {
+    background: url(../img/solution/hot-solution.png) no-repeat center;
+}
+
+.solution-container .industry-solution .title-area {
+    /*background: url(../img/solution/industry-solution.png) no-repeat 0 0;*/
+}
+
+.solution-container .custom-case .title-area {
+    /*background: url(../img/solution/custom-case.png) no-repeat 0 0;*/
+}
+
+.solution-container .pataner .title-area {
+    /*background: url(../img/solution/pataner.png) no-repeat 0 0;*/
+}
+
+.solution-container .training-support {
+    padding: 0 0 45px 0;
+}
+
+.solution-container .training-support .title-area {
+    /*background: url(../img/solution/training-support.png) no-repeat 0 0;*/
+}
+
+.solution-container .hot-solution .ico-item-each {
+    width: 283px;
+    height: 263px;
+    border: 1px solid #dadada;
+    margin: 0 5px;
+}
+
+.solution-container .hot-solution .ico-items {
+    padding: 0 0 0 10px;
+    text-align: center;
+}
+
+.solution-container .hot-solution .ico-item-each .ico {
+    display: block;
+    width: 109px;
+    height: 85px;
+    margin: 40px auto 25px;
+    /*background: url(../img/solution/hot-solution-ico.png) no-repeat 0 0;*/
+}
+
+.solution-container .hot-solution .ico-item-each .ico-first {
+    width: 80px;
+    background-position: 2px 2px;
+}
+
+.solution-container .hot-solution .ico-item-each .ico-second {
+    width: 80px;
+    background-position: -127px 0;
+}
+
+.solution-container .hot-solution .ico-item-each .ico-third {
+    width: 80px;
+    background-position: -245px 0;
+}
+
+.solution-container .hot-solution .ico-item-each .ico-forth {
+    width: 60px;
+    background-position: -378px 0;
+}
+
+.solution-container .hot-solution .ico-item-each:hover {
+    border: 1px solid #3899f6;
+}
+
+.solution-container .hot-solution .ico-item-each:hover .ico {
+    background-position-y: -124px;
+}
+
+.solution-container .hot-solution .ico-item-each .item-title {
+    font-size: 16px;
+    color: #555;
+    padding: 0 0 15px 0;
+}
+
+.solution-container .hot-solution .ico-item-each .item-description {
+    font-size: 14px;
+    color: #666;
+}
+
+.solution-container .industry-solution .ico-items {
+    padding: 0 0 0 10px;
+}
+
+.solution-container .industry-solution .ico-item-each {
+    width: 283px;
+    height: 148px;
+    margin: 5px;
+    border: 1px solid #dadada;
+    cursor: default;
+}
+
+.solution-container .industry-solution .ico-item-each:hover {
+    border: 1px solid #3899f6;
+}
+
+.industry-solution .ico-item-each .left-ico {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 44px 10px 44px 15px;
+}
+
+.solution-container .industry-solution .ico-item-each .ico-1 {
+    background-position: 10px 10px;
+}
+
+.solution-container .industry-solution .ico-item-each .ico-2 {
+    background-position: -72px 10px;
+}
+
+.solution-container .industry-solution .ico-item-each .ico-3 {
+    background-position: -150px 10px;
+}
+
+.solution-container .industry-solution .ico-item-each .ico-4 {
+    background-position: -236px 10px;
+}
+
+.solution-container .industry-solution .ico-item-each .ico-5 {
+    background-position: 10px -58px;
+}
+
+.solution-container .industry-solution .ico-item-each .ico-6 {
+    background-position: -72px -58px;
+}
+
+.solution-container .industry-solution .ico-item-each .ico-7 {
+    background-position: -155px -58px;
+}
+
+.solution-container .industry-solution .ico-item-each .ico-8 {
+    background-position: -237px -58px;
+}
+
+.solution-container .industry-solution .ico-item-each .ico-9 {
+    background-position: 10px -125px;
+}
+
+.solution-container .industry-solution .ico-item-each .ico-10 {
+    background-position: -72px -125px;
+}
+
+.solution-container .industry-solution .ico-item-each .ico-11 {
+    background-position: -155px -125px;
+}
+
+.solution-container .industry-solution .ico-item-each .ico-12 {
+    background-position: -237px -125px;
+}
+
+.solution-container .industry-solution .ico-item-each:hover .ico-1 {
+    background-position: 10px -190px;
+}
+
+.solution-container .industry-solution .ico-item-each:hover .ico-2 {
+    background-position: -72px -190px;
+}
+
+.solution-container .industry-solution .ico-item-each:hover .ico-3 {
+    background-position: -150px -190px;
+}
+
+.solution-container .industry-solution .ico-item-each:hover .ico-4 {
+    background-position: -236px -190px;
+}
+
+.solution-container .industry-solution .ico-item-each:hover .ico-5 {
+    background-position: 10px -258px;
+}
+
+.solution-container .industry-solution .ico-item-each:hover .ico-6 {
+    background-position: -72px -258px;
+}
+
+.solution-container .industry-solution .ico-item-each:hover .ico-7 {
+    background-position: -155px -258px;
+}
+
+.solution-container .industry-solution .ico-item-each:hover .ico-8 {
+    background-position: -237px -258px;
+}
+
+.solution-container .industry-solution .ico-item-each:hover .ico-9 {
+    background-position: 10px -325px;
+}
+
+.solution-container .industry-solution .ico-item-each:hover .ico-10 {
+    background-position: -72px -325px;
+}
+
+.solution-container .industry-solution .ico-item-each:hover .ico-11 {
+    background-position: -155px -325px;
+}
+
+.solution-container .industry-solution .ico-item-each:hover .ico-12 {
+    background-position: -237px -325px;
+}
+
+.solution-container .industry-solution .ico-item-each .right-info {
+    max-width: 190px;
+    padding: 35px 0;
+}
+
+.solution-container .industry-solution .ico-item-each .right-info .item-title {
+    display: inline-block;
+    font-size: 16px;
+    color: #555;
+    padding: 0 0 15px 0;
+}
+
+.solution-container .industry-solution .ico-item-each .right-info .item-description {
+    font-size: 12px;
+    color: #666;
+}
+
+.solution-container .custom-case .custom-case-icons {
+    padding: 0 0 0 10px;
+}
+
+.solution-container .custom-case .custom-case-icons .ico-each,
+.solution-container .pataner .custom-case-icons .ico-each {
+    width: 283px;
+    height: 148px;
+    margin: 5px;
+    overflow: hidden;
+    border: 1px solid #dadada;
+}
+
+.solution-container .custom-case .custom-case-icons .ico-each .case-logo,
+.solution-container .pataner .custom-case-icons .ico-each .case-logo {
+    width: 283px;
+    height: 143px;
+}
+
+.solution-container .training-support .ico-each {
+    width: 368px;
+    height: 148px;
+    margin: 0 10px;
+    border: 1px solid #dadada;
+}
+
+.solution-container .training-support .ico-each .left-ico {
+    display: inline-block;
+    width: 60px;
+    height: 61px;
+    float: left;
+    margin: 43px 20px 44px 35px;
+    /*background: url(../img/solution/training-support-ico.png) no-repeat 0 0;*/
+}
+
+.solution-container .training-support .ico-each .ico-2 {
+    background-position: -88px 0;
+}
+
+.solution-container .training-support .ico-each .ico-3 {
+    background-position: -165px 0;
+}
+
+.solution-container .training-support .ico-each:hover .left-ico {
+    background-position-y: -109px;
+}
+
+.solution-container .training-support .ico-each .right-content {
+    float: left;
+    max-width: 200px;
+    padding: 35px 0;
+}
+
+.solution-container .training-support .ico-each .right-content .item-title {
+    font-size: 16px;
+    color: #555;
+    padding: 0 0 10px 0;
+}
+
+.solution-container .training-support .ico-each .right-content .item-description {
+    font-size: 12px;
+    color: #666;
+}
+
+.ico-second {
+    display: none!important;
+}
+
+.ico-item-each:hover .ico-first,
+.ico-each:hover .ico-first {
+    display: none!important;
+}
+
+.ico-item-each:hover .ico-second,
+.ico-each:hover .ico-second {
+    display: inline-block!important;
+}

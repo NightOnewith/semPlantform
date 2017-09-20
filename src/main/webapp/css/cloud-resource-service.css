@@ -1,0 +1,178 @@
+/*****
+    云资源服务
+******/
+
+.cloud-resource-service {
+    padding: 0 0 30px 0;
+}
+
+.cloud-resource-service .mixin-cloud-service {
+    background: #fcfcfc;
+}
+
+.cloud-resource-service .mixin-cloud-service .wrapper.wrapper_menu {
+    padding: 0 0 50px 0;
+}
+
+.cloud-resource-service .banner {
+    width: 100%;
+    height: 485px;
+    background: #352999;
+    position: relative;
+}
+
+.cloud-resource-service .banner .banner-pic {
+    display: block;
+    width: 1400px;
+    height: 485px;
+    background: url(../img/banner-new/banner-7.png) no-repeat center;
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -720px;
+}
+
+.cloud-resource-service .mixin-clound .index_products_tit,
+.cloud-resource-service .authenticate-area .index_products_tit,
+.cloud-resource-service .custom-case .index_products_tit {
+    margin-top: 0;
+}
+
+.cloud-resource-service .mixin-clound .item .product-title {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.cloud-resource-service .mixin-clound .item .product-title.top {
+    padding: 30px 0 0 0;
+}
+
+.cloud-resource-service .mixin-clound .item .product-title.bottom {
+    padding: 0 0  15px 0;
+}
+
+.cloud-resource-service .mixin-clound .item .desc_info {
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    color: #999;
+}
+
+.cloud-resource-service .authenticate-area .area-description {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+    padding: 14px 0 0;
+}
+
+.cloud-resource-service .authenticate-area {
+    max-width: 1200px;
+}
+
+.cloud-resource-service .authenticate-area .con .item {
+    width: 578px;
+    height: 198px;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    margin: 10px 0 0 10px;
+}
+
+.cloud-resource-service .authenticate-area .con .item:hover {
+    border: 1px solid #3899f6;
+}
+
+.cloud-resource-service .authenticate-area .con .item .left-image {
+    margin: 35px 15px;
+}
+
+.cloud-resource-service .authenticate-area .con .item .right-content {
+    max-width: 330px;
+    margin: 50px 0 0 20px;
+    text-align: left;
+}
+
+.cloud-resource-service .authenticate-area .con .item .right-content .product-title {
+    font-size: 16px;
+    color: #555;
+}
+
+.cloud-resource-service .authenticate-area .con .item .right-content .desc_info {
+    font-size: 14px;
+    color: #999;
+    line-height: 24px;
+    text-align: left;
+}
+
+.cloud-resource-service .custom-case .index_products_tit {
+    background: none;
+    width: 100px;
+    border-bottom: 3px solid #ffb414;
+}
+
+.cloud-resource-service .scroll-container {
+    width: 100%;
+    height: 162px;
+    position: relative;
+    background: #fcfcfc;
+    border: 1px solid #dfdfdf;
+}
+
+.cloud-resource-service .prev-btn,
+.cloud-resource-service .next-btn {
+    display: inline-block;
+    width: 38px;
+    height: 162px;
+    position: absolute;
+    z-index: 9;
+    top: 0;
+}
+
+.cloud-resource-service .prev-btn {
+    background: url(../img/cloud-resource-service/custom-case/prev.png) no-repeat;
+    left: 0;
+}
+
+.cloud-resource-service .prev-btn.disable {
+    background: url(../img/cloud-resource-service/custom-case/prev-disable.png) no-repeat;
+}
+
+.cloud-resource-service .next-btn {
+    background: url(../img/cloud-resource-service/custom-case/next.png) no-repeat;
+    right: 0;
+}
+
+.cloud-resource-service .prev-btn.disable {
+    background: url(../img/cloud-resource-service/custom-case/next-disable.png) no-repeat;
+}
+
+.cloud-resource-service .scroller {
+    position: relative;
+    z-index: 8;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    margin: 31px 0;
+}
+
+.cloud-resource-service .scroll-item {
+    width: 150px;
+    height: 98px;
+    border: 1px solid #e6e6e6;
+    margin: 0 6px 0 7px;
+}
+
+.cloud-resource-service .scroll-list {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.cloud-resource-service .mixin-clound {
+    margin: 70px auto;
+}
+.cloud-resource-service .custom-case {
+    margin: 70px auto 0;
+}
